@@ -80,7 +80,7 @@
                           operator: DoesNotExist
             containers:
               - name: recorder
-                image: quay.io/it-bench/prometheus-recorder:1.0.0@sha256:d9d7a866b41a8d20df3da966f92bb34abeb69084aa941d217a39cc6e0928289b
+                image: quay.io/it-bench/prometheus-recorder:1.0.0@sha256:db1a1908002ef66212efecc1f0c31ea7747ea9e56fbd198674bbed6f33976021
                 env:
                   - name: PROMETHEUS_ENDPOINT
                     value: "{{ tools_prometheus_endpoint.http }}"
